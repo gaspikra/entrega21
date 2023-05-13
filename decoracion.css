@@ -1,0 +1,108 @@
+header{
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    margin: auto;
+    width: 1100px;
+    height: 120px;
+}
+header nav{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+header nav a:hover{
+    background-color: pink;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    text-decoration: underline overline;
+    padding-bottom:30px;
+    padding-top: 30px;
+}
+header a{
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    padding-left: 6px;
+}
+header nav a{
+    padding: 8px;
+    transition: 800ms;
+    color: black;
+}
+#baner {
+    width: 1100px;
+    height: 350px;
+    background-color: aqua;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-evenly;
+} 
+#baner h1{
+    margin-left: 5px;
+    color: black;
+}
+main{
+    margin: auto;
+    width: 1100px;
+}
+#baner nav a{
+    border: 2px solid rgb(90, 87, 87);
+    width: 12px;
+    background-color:rgb(60, 168, 196);
+    transition: 500ms;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+}
+#baner nav a:hover{
+    background-color: blue;
+}
+#trabajos{
+    background-color: rgb(96, 212, 233);
+    border: 4px solid black;
+}
+#trabajos article{
+    border-bottom: 1px solid rgb(59, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#trabajos article div{
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+#trabajos h2{
+    justify-content: center;
+}
+#trabajos article div a{
+    border: 2px solid rgb(90, 87, 87);
+    width: 12px;
+    background-color:rgb(165, 164, 173);
+    transition: 500ms;
+    padding: 3px 0px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: black;
+}
+#trabajos article div a:hover{
+    background-color: bisque;
+}
+#trabajos article div p{
+    margin-bottom: 5px;
+}
+
